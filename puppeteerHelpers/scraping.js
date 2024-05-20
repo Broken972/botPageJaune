@@ -146,7 +146,7 @@ async function scrapInfos(links, browser, location, activiteSeach) {
 
     // Write records to CSV
     const csvWriter = createCsvWriter({
-        path: `${location}_${activiteSeach}_results.csv`,
+        path: `File_${location}_${activiteSeach}_results.csv`,
         header: [
             { id: "location", title: "Location" },
             { id: "name", title: "Name" },
