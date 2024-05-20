@@ -23,7 +23,7 @@ async function takeSearchLink(url) {
     const browser = await puppeteer.launch({
         headless: false,
         args: [
-            "--window-size=1200,800", // Set the browser window size
+            "--window-size=0,-100", // Set the browser window size
             "--window-position=0,0", // Move the browser window to the top-left corner
         ],
     });
